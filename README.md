@@ -11,6 +11,10 @@ This system allows the player to place, edit and delete blueprints in a level.
 In your player blueprint, add the component AC_BuildSystem by typing 'AC Build System'.<br>
 ![AddingAC](https://user-images.githubusercontent.com/38381564/235476707-ed426ef5-06e6-4bb0-980d-e1327bf4fc59.png)
 
+### Define player blueprint reference:
+In the PC_BuildSystem, redefine the reference to the player's blueprint and camera. (The camera reference will allow to place a blueprint where the player looks)<br>
+![DefinePlayerCharacter Camera](https://user-images.githubusercontent.com/38381564/235527330-0339120f-c158-4fce-ac53-47b75cc7bb8d.png)
+
 
 ### Action Mappings:
 You will need to create 2 inputs: 
@@ -22,14 +26,6 @@ You will need to create 2 inputs:
 - PlaceBuildBlueprint (for exemple 'Left Mouse Button')<br>
 ![PlaceBuildBlueprint](https://user-images.githubusercontent.com/38381564/235473675-4f23c54c-c217-4fd5-8278-30ebb082b8a5.png)
 
-
-### Player blueprint:
-We need to define the references of the parent actor (player blueprint) and its camera.<br>
-![playerBP](https://user-images.githubusercontent.com/38381564/235475613-c5b5fd52-9ee8-41e3-8c6f-398cebed8cc9.png)
-
-Replace the player blueprint cast reference in the PC_BuildSystem with the one you put your AC_BuildSystem in:
-![DefinePlayerCharacter](https://user-images.githubusercontent.com/38381564/235524539-39b97c75-60de-429b-bc5f-ce08410fe632.png)
-
 ## Settings
 
 In the AC_BuildSystem, you can adjust some settings:
@@ -39,7 +35,7 @@ In the AC_BuildSystem, you can adjust some settings:
 
 - HitDistance (This parameter corresponds to the maximum distance between the camera and where the player aims. By default, this value is 500,0.)<br>
 This parameter is a local variable accessible from the BuildTrace function<br>
-![BuildTracePath](https://user-images.githubusercontent.com/38381564/235479285-485b50b3-ca1c-4eaa-81ef-72428c458874.png)
+![BuildTracePath](https://user-images.githubusercontent.com/38381564/235479285-485b50b3-ca1c-4eaa-81ef-72428c458874.png)<br>
 ![HitDistance](https://user-images.githubusercontent.com/38381564/235479305-9dec0bb2-cc0f-4067-8ddd-f20d770f031f.png)
 
 

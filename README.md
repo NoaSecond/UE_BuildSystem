@@ -27,6 +27,9 @@ You will need to create 2 inputs:
 We need to define the references of the parent actor (player blueprint) and its camera.<br>
 ![playerBP](https://user-images.githubusercontent.com/38381564/235475613-c5b5fd52-9ee8-41e3-8c6f-398cebed8cc9.png)
 
+Replace the player blueprint cast reference in the PC_BuildSystem with the one you put your AC_BuildSystem in:
+![DefinePlayerCharacter](https://user-images.githubusercontent.com/38381564/235524539-39b97c75-60de-429b-bc5f-ce08410fe632.png)
+
 ## Settings
 
 In the AC_BuildSystem, you can adjust some settings:

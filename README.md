@@ -26,6 +26,15 @@ You will need to create 2 inputs:
 - PlaceBuildBlueprint (for exemple 'Left Mouse Button')<br>
 ![PlaceBuildBlueprint](https://user-images.githubusercontent.com/38381564/235473675-4f23c54c-c217-4fd5-8278-30ebb082b8a5.png)
 
+### Adding new placeable blueprint:
+To add a new placeable blueprint, right-click on BP_PlaceableBlueprint and click on 'Create Child Blueprint Class'.<br>
+![PlaceableBlueprint](https://user-images.githubusercontent.com/38381564/235532845-e03df69a-31d9-4b72-8ac2-99a06a71d924.png)<br>
+![CreateChild](https://user-images.githubusercontent.com/38381564/235532860-b3ed14d8-e701-41a7-b61b-35e0659032a2.png)<br>
+
+For each created component, add it to the table by creating a new row in the DT_BS_PBList DataTable.<br>
+![RegisterNewPB](https://user-images.githubusercontent.com/38381564/235532325-55d2f2fd-b73a-43be-8615-3f208db3fd53.png)
+
+
 ## Settings
 
 In the AC_BuildSystem, you can adjust some settings:

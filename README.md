@@ -18,6 +18,8 @@ This system allows the player to place, edit and delete blueprints in a level.
 ## Configuration
 
 ### AC_BuildSystem
+Make sure to enable 'Blueprint File Utilities' plugin before starting.
+
 In your player blueprint, add the component AC_BuildSystem by typing 'AC Build System'.<br>
 ![AddingAC](https://user-images.githubusercontent.com/38381564/235476707-ed426ef5-06e6-4bb0-980d-e1327bf4fc59.png)
 

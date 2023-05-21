@@ -56,7 +56,7 @@ By default the key 'Space Bar'<br>
 
 
 - ToggleMouseCursor
-This action is used to show or hide the mouse cursor and acces to the HUD menu.<br>
+This action is used to show or hide the mouse cursor and acces the HUD menu.<br>
 By default the key 'I'.<br>
 ![ToggleMouseCursor](https://github.com/YoruKiwi/UE_BuildSystem/assets/38381564/2ad5f94f-04fa-4a57-af79-1d271361370a)<br>
 
@@ -89,7 +89,7 @@ Open the level and set in 'World Settings' the option 'GameMode Override' to 'GM
 ## Settings
 
 ### SnapGridSize
-This parameter is the distance between the points that make up the grid so that the object will snap to closest grid dot.<br>
+This parameter is the distance between the points that make up the grid so that the object will snap to the closest grid dot.<br>
 By default, this value is ```100,0```.<br>
 ![SnapGridSize](https://github.com/YoruKiwi/UE_BuildSystem/assets/38381564/9edab2a4-62e1-46fb-adf7-ebe65ef047db)<br>
 
